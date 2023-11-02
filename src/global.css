@@ -58,7 +58,6 @@ button{
 
 .content-flex-center-column{
     flex-direction: column;
-    align-items: center;
     justify-content: center;
 }
 
@@ -69,6 +68,9 @@ button{
 
 .gap-1 {
     gap: 0.4rem;
+}
+.align-center{
+    align-center: center;
 }
 
 .gap-2 {
@@ -104,5 +106,36 @@ button{
 }
 
 .button-primary:hover{
+    filter:contrast(0.8);
+}
+
+.button-secondary{
+    border-radius: 3.6rem;
+    background-color: var(--gray-100);
+    color: var(--black-800);
+    padding: 8px 16px;
+    font-weight: 500;
+    letter-spacing: 0.25px;
+    text-transform: uppercase;
+
+}
+.button-secondary:hover{
+    filter:contrast(0.8);
+}
+
+.button-outline{
+    border-radius: 48px;
+    border: 1px solid var(--white-900);
+    background-color:var(--black-900);
+    color: var(--white-900);
+    font-weight: 500;
+    letter-spacing: 1.25px;
+    text-transform: uppercase;
+    padding: 8px 16px;
+
+
+}
+
+.button-outline:hover{
     filter:contrast(0.8);
 }

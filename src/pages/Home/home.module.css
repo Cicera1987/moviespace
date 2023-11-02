@@ -1,0 +1,44 @@
+.main{
+    padding: 5.6rem 0;
+}
+
+.title{
+  font-size: 3.6rem;
+  font-weight: 500;
+  line-height: 3.2rem;
+  margin-bottom: 4.0rem;  
+}
+.movie_image{
+    width: 150px;
+    height: 223px;
+    border-radius: 8px;
+}
+
+.movie_imdbImage{
+  margin-right: 4px;
+}
+.movie{
+  margin-top:32px;
+}
+
+.movie h2{
+  font-size:2.4rem;
+  font-weight: 500;
+  line-height: 3.2rem;  
+}
+.movie p{
+  color: var(--gray-300);
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  margin-bottom: 2.4rem;
+  letter-spacing: 0.5px;
+}
+.movie_description{
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  text-justify: justify;
+
+}
